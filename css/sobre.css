@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: auto;
+    width: 940px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.titulo-principal {
+    padding: 4px;
+    background-image: linear-gradient(to right, rgb(161, 154, 154), rgb(212, 205, 205));
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: -6px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+    margin: 0 auto;
+    padding: 0 45px;
+    text-indent: 25px;
+}
+
+.paragrafo {
+    margin-top: 10px;
+}
+
+.paragrafo_historia {
+    margin-top: 13px;
+}
+
+.rodape img {
+    margin: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+.centro_distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.familia_pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+@media(max-width: 939px) {
+    /* MOBILE */
+
+    img,
+    h1 {
+      text-align: center;  
+    }
+
+    ai img {
+        max-width: 50%;
+    }
+}
+
+.lista {
+    margin-left: 37px;
+}
+
+section h1 {
+    background-color: rgb(209, 213, 236);
+    color: blue;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: 35px;
+    font-weight: bolder;
+    padding: 9px;
+}
+
+section h1:hover {
+    cursor: pointer;
+}
+
+    
